@@ -7,7 +7,6 @@
 #include <unistd.h>
 
 #define MAX_EVENTS 1024
-#define LEN_NAME 16
 #define ESIZE  ( sizeof (struct inotify_event) )
 
 int main( int argc, char **argv )
